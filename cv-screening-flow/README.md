@@ -23,15 +23,15 @@ Kandidat: `Nelson Ferdinand Wangsaputra` · Applicant ID: `SKR26-0481`
 ```mermaid
 flowchart TD
     A[CV teks mentah] --> B[1. Preprocess deterministik]
-    B -->|email/telepon disimpan lokal, di-redact dari prompt| C[(contact_local_only)]
-    B -->|atribut sensitif & baris mirip instruksi dibuang| D[Teks bersih]
+    B -->|PII disimpan lokal| C[(contact_local_only)]
+    B -->|dibersihkan| D[Teks bersih<br/>tanpa atribut sensitif<br/>& baris mirip instruksi]
     D --> E[2. LLM extraction<br/>JSON + evidence per klaim]
     E --> F{Valid sesuai schema?}
     F -->|tidak, maks 3x| G[Repair prompt berisi daftar error]
     G --> E
     F -->|gagal terus| X[Fail-safe: request_more_information]
     F -->|ya| H[3. Grounding check<br/>evidence harus ada di CV]
-    H -->|item tanpa bukti dibuang + dilaporkan| I[4. Derive di kode<br/>durasi, overlap, gap]
+    H -->|dibuang + dilaporkan| I[4. Derive di kode<br/>durasi, overlap, gap]
     I --> J[5. Rubric scoring vs JD<br/>skor + band + coverage]
     J --> K[6. Caveat engine<br/>kode + severity + confidence]
     K --> L[Output JSON:<br/>saran + caveat + breakdown]
@@ -337,6 +337,7 @@ Ollama memungkinkan pemrosesan secara lokal sehingga teks CV tidak perlu dikirim
 
 - **Tool:** Claude (Anthropic) sebagai pendamping dalam proses perancangan dan pengembangan prototype.
 - **Bentuk bantuan:** Digunakan untuk mendukung proses *design thinking* dan penerapan metode Agile, termasuk eksplorasi ide, penyusunan pendekatan pemecahan masalah, perencanaan tahapan pengembangan, serta diskusi mengenai alternatif solusi teknis.
+- **Perbaikan kode:** Claude juga digunakan untuk membantu menemukan dan memperbaiki kesalahan pada kode prototype.
 - **Review dan perbaikan:** Claude juga digunakan sebagai sarana konsultasi untuk meminta masukan, koreksi, dan evaluasi terhadap pendekatan implementasi selama proses pengembangan. Setiap saran ditinjau dan disesuaikan kembali berdasarkan kebutuhan proyek.
 - **Kontribusi saya:** Saya bertanggung jawab atas implementasi kode Python, pengembangan pipeline, perancangan schema dan mekanisme validasi, grounding evidence, derive, rubric scoring, caveat engine, penyusunan data CV mock dan gold label, serta pengembangan unit test dan evaluasi prototype.
 
