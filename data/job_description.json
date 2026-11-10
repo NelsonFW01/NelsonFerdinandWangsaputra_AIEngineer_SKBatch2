@@ -1,0 +1,13 @@
+{
+  "title": "Junior AI Engineer (MOCK job description)",
+  "must_have": ["python", "sql", "machine learning", "git"],
+  "nice_to_have": ["llm", "prompt engineering", "fastapi", "docker", "nlp", "pandas"],
+  "preferred_months_experience": 12,
+  "relevant_education_fields": [
+    "computer science", "informatics", "information system", "statistic", "data science",
+    "mathematic", "electrical engineering", "teknik informatika", "sistem informasi",
+    "statistika", "matematika", "teknik elektro", "ilmu komputer"
+  ],
+  "weights": {"must_have": 0.55, "nice_to_have": 0.20, "experience": 0.15, "education": 0.10},
+  "bands": {"strong_match": 75, "possible_match": 55, "weak_match": 35}
+}

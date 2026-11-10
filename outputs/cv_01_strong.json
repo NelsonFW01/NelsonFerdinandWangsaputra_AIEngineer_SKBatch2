@@ -1,0 +1,200 @@
+{
+  "candidate_id": "cd78aaca36",
+  "extraction": {
+    "full_name": "Rina Wijaya",
+    "location": "Jakarta",
+    "summary": "Junior AI engineer with hands-on experience building NLP and LLM-based features, from data preparation to API deployment.",
+    "education": [
+      {
+        "institution": "Universitas Contoh Indonesia",
+        "degree": "S1",
+        "field": "Teknik Informatika",
+        "end_year": 2024,
+        "evidence": "S1 Teknik Informatika | Universitas Contoh Indonesia | 2020 - 2024"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Junior AI Engineer",
+        "company": "PT Contoh Teknologi Nusantara",
+        "start": "2025-01",
+        "end": "present",
+        "is_internship": false,
+        "highlights": [
+          "Built an LLM-based FAQ assistant with prompt engineering and LangChain, cutting manual ticket triage time by an estimated 30% in an internal pilot.",
+          "Developed REST APIs with FastAPI and packaged services with Docker.",
+          "Wrote SQL queries and pandas pipelines to prepare training data; collaborated through Git pull requests."
+        ],
+        "evidence": "Junior AI Engineer | PT Contoh Teknologi Nusantara | Jan 2025 - Present"
+      },
+      {
+        "title": "Machine Learning Intern",
+        "company": "PT Contoh Data Analitika",
+        "start": "2024-06",
+        "end": "2024-12",
+        "is_internship": true,
+        "highlights": [
+          "Trained a text classification model (machine learning, NLP) in Python with scikit-learn; reached 0.86 F1 on an internal validation set.",
+          "Documented experiments and results for the team."
+        ],
+        "evidence": "Machine Learning Intern | PT Contoh Data Analitika | Jun 2024 - Dec 2024"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "SQL",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "Git",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "Machine Learning",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "NLP",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "Pandas",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "FastAPI",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "Docker",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "Prompt Engineering",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "LangChain",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "LLM",
+        "evidence": "Python, SQL, Git, Machine Learning, NLP, Pandas, FastAPI, Docker, Prompt Engineering, LangChain, LLM"
+      },
+      {
+        "name": "REST API",
+        "evidence": "Developed REST APIs with FastAPI and packaged services with Docker."
+      },
+      {
+        "name": "Scikit-learn",
+        "evidence": "Trained a text classification model (machine learning, NLP) in Python with scikit-learn; reached 0.86 F1 on an internal validation set."
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Contoh Cloud Practitioner (2024)",
+        "evidence": "Contoh Cloud Practitioner (2024)"
+      }
+    ],
+    "languages": [],
+    "extraction_notes": []
+  },
+  "derived": {
+    "total_months": 30,
+    "total_years": 2.5,
+    "internship_months": 7,
+    "entries_total": 2,
+    "entries_missing_dates": 0,
+    "entries_invalid_range": 0,
+    "gaps_over_6_months": 0,
+    "as_of": "2026-11"
+  },
+  "recommendation": {
+    "job_title": "Junior AI Engineer (MOCK job description)",
+    "fit_score": 100.0,
+    "band": "strong_match",
+    "suggested_next_step": "prioritize_human_review",
+    "confidence": "high",
+    "requires_human_review": true,
+    "strengths": [
+      "Requirement utama dengan bukti pemakaian: python, sql, machine learning, git.",
+      "Nilai tambah ditemukan: llm, prompt engineering, fastapi, docker, nlp, pandas.",
+      "Pengalaman terdeteksi 30 bulan (termasuk magang 7 bulan).",
+      "Latar pendidikan relevan dengan posisi."
+    ],
+    "gaps": [],
+    "caveats": [
+      {
+        "code": "HUMAN_DECISION_REQUIRED",
+        "severity": "info",
+        "message": "Ini saran awal berbasis rubric heuristik yang belum divalidasi terhadap hasil rekrutmen nyata. Keputusan akhir harus dibuat recruiter setelah membaca CV asli."
+      },
+      {
+        "code": "SENSITIVE_FIELDS_REMOVED",
+        "severity": "info",
+        "message": "2 baris atribut sensitif (mis. usia/gender/agama) dibuang sebelum diproses dan tidak dipakai dalam penilaian."
+      }
+    ],
+    "score_breakdown": {
+      "must_have": {
+        "weight": 0.55,
+        "coverage": 1.0,
+        "strong": [
+          "python",
+          "sql",
+          "machine learning",
+          "git"
+        ],
+        "listed_only": [],
+        "missing": []
+      },
+      "nice_to_have": {
+        "weight": 0.2,
+        "coverage": 1.0,
+        "strong": [
+          "llm",
+          "prompt engineering",
+          "fastapi",
+          "docker",
+          "nlp",
+          "pandas"
+        ],
+        "listed_only": [],
+        "missing": []
+      },
+      "experience": {
+        "weight": 0.15,
+        "coverage": 1.0,
+        "months": 30
+      },
+      "education": {
+        "weight": 0.1,
+        "coverage": 1.0
+      }
+    },
+    "disclaimer": "Bukan keputusan rekrutmen. Tidak ada kandidat yang ditolak otomatis oleh sistem ini."
+  },
+  "contact_local_only": {
+    "emails": [
+      "rina.wijaya@example.com"
+    ],
+    "phones": [
+      "0812-0000-0001"
+    ]
+  },
+  "pipeline_meta": {
+    "llm": "mock-rule-based",
+    "extraction_ok": true,
+    "attempts": 1,
+    "validation_errors": [],
+    "ungrounded_items_dropped": [],
+    "items_before_grounding": 17,
+    "sensitive_lines_removed": 2,
+    "injection_flags": [],
+    "chars_sent_to_llm": 1080
+  }
+}

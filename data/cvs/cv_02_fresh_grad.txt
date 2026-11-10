@@ -1,0 +1,15 @@
+DEWI LESTARI
+Bandung | dewi.lestari@example.com | +62 813-0000-0002
+
+PROFILE
+Fresh graduate in Information Systems looking for an entry-level role in data or AI. Active in campus programming communities and eager to learn.
+
+EXPERIENCE
+Teaching Assistant | Universitas Contoh Bandung | Sep 2023 - Dec 2023
+- Assisted students in Python programming labs and graded weekly assignments.
+
+EDUCATION
+S1 Sistem Informasi | Universitas Contoh Bandung | 2020 - 2024
+
+SKILLS
+Python, SQL, Excel, HTML

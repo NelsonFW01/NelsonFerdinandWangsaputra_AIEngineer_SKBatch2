@@ -1,0 +1,155 @@
+{
+  "candidate_id": "1b881b700e",
+  "extraction": {
+    "full_name": "Dewi Lestari",
+    "location": "Bandung",
+    "summary": "Fresh graduate in Information Systems looking for an entry-level role in data or AI. Active in campus programming communities and eager to learn.",
+    "education": [
+      {
+        "institution": "Universitas Contoh Bandung",
+        "degree": "S1",
+        "field": "Sistem Informasi",
+        "end_year": 2024,
+        "evidence": "S1 Sistem Informasi | Universitas Contoh Bandung | 2020 - 2024"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Teaching Assistant",
+        "company": "Universitas Contoh Bandung",
+        "start": "2023-09",
+        "end": "2023-12",
+        "is_internship": false,
+        "highlights": [
+          "Assisted students in Python programming labs and graded weekly assignments."
+        ],
+        "evidence": "Teaching Assistant | Universitas Contoh Bandung | Sep 2023 - Dec 2023"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "evidence": "Python, SQL, Excel, HTML"
+      },
+      {
+        "name": "SQL",
+        "evidence": "Python, SQL, Excel, HTML"
+      },
+      {
+        "name": "Excel",
+        "evidence": "Python, SQL, Excel, HTML"
+      },
+      {
+        "name": "HTML",
+        "evidence": "Python, SQL, Excel, HTML"
+      }
+    ],
+    "certifications": [],
+    "languages": [],
+    "extraction_notes": []
+  },
+  "derived": {
+    "total_months": 4,
+    "total_years": 0.3,
+    "internship_months": 0,
+    "entries_total": 1,
+    "entries_missing_dates": 0,
+    "entries_invalid_range": 0,
+    "gaps_over_6_months": 0,
+    "as_of": "2026-11"
+  },
+  "recommendation": {
+    "job_title": "Junior AI Engineer (MOCK job description)",
+    "fit_score": 37.0,
+    "band": "weak_match",
+    "suggested_next_step": "low_priority_human_review",
+    "confidence": "medium",
+    "requires_human_review": true,
+    "strengths": [
+      "Requirement utama dengan bukti pemakaian: python.",
+      "Pengalaman terdeteksi 4 bulan (termasuk magang 0 bulan).",
+      "Latar pendidikan relevan dengan posisi."
+    ],
+    "gaps": [
+      "Hanya tercantum tanpa bukti pemakaian: sql.",
+      "Belum terlihat: machine learning, git.",
+      "Pengalaman 4 bulan < target 12 bulan."
+    ],
+    "caveats": [
+      {
+        "code": "HUMAN_DECISION_REQUIRED",
+        "severity": "info",
+        "message": "Ini saran awal berbasis rubric heuristik yang belum divalidasi terhadap hasil rekrutmen nyata. Keputusan akhir harus dibuat recruiter setelah membaca CV asli."
+      },
+      {
+        "code": "SKILLS_LISTED_WITHOUT_USAGE_EVIDENCE",
+        "severity": "warn",
+        "message": "Skill berikut hanya tercantum di daftar tanpa bukti pemakaian di pengalaman/proyek: sql. Verifikasi saat screening."
+      },
+      {
+        "code": "MUST_HAVE_MISSING",
+        "severity": "warn",
+        "message": "Requirement utama tidak ditemukan di CV: machine learning, git. Bisa jadi memang tidak ada, atau tidak ditulis."
+      }
+    ],
+    "score_breakdown": {
+      "must_have": {
+        "weight": 0.55,
+        "coverage": 0.4,
+        "strong": [
+          "python"
+        ],
+        "listed_only": [
+          "sql"
+        ],
+        "missing": [
+          "machine learning",
+          "git"
+        ]
+      },
+      "nice_to_have": {
+        "weight": 0.2,
+        "coverage": 0.0,
+        "strong": [],
+        "listed_only": [],
+        "missing": [
+          "llm",
+          "prompt engineering",
+          "fastapi",
+          "docker",
+          "nlp",
+          "pandas"
+        ]
+      },
+      "experience": {
+        "weight": 0.15,
+        "coverage": 0.33,
+        "months": 4
+      },
+      "education": {
+        "weight": 0.1,
+        "coverage": 1.0
+      }
+    },
+    "disclaimer": "Bukan keputusan rekrutmen. Tidak ada kandidat yang ditolak otomatis oleh sistem ini."
+  },
+  "contact_local_only": {
+    "emails": [
+      "dewi.lestari@example.com"
+    ],
+    "phones": [
+      "+62 813-0000-0002"
+    ]
+  },
+  "pipeline_meta": {
+    "llm": "mock-rule-based",
+    "extraction_ok": true,
+    "attempts": 1,
+    "validation_errors": [],
+    "ungrounded_items_dropped": [],
+    "items_before_grounding": 6,
+    "sensitive_lines_removed": 0,
+    "injection_flags": [],
+    "chars_sent_to_llm": 462
+  }
+}
