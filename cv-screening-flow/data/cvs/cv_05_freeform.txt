@@ -1,2 +1,0 @@
-Sari Anggraini
-Halo, saya Sari, lulusan Teknik Elektro tahun 2023 dari Universitas Contoh Yogyakarta. Saya pernah magang selama sekitar 9 bulan sebagai AI Engineer Intern di PT Contoh Startup (Februari 2023 sampai Oktober 2023), mengerjakan pipeline data dengan Python dan pandas serta menulis query SQL untuk analisis. Di tim, saya memakai Git untuk code review. Saya mencari posisi AI Engineer junior dan terbuka untuk belajar LLM dan deployment model.
