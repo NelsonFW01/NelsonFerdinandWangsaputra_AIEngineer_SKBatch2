@@ -1,0 +1,109 @@
+{
+  "candidate_id": "69c8044f7b",
+  "extraction": {
+    "full_name": "Sari Anggraini",
+    "location": null,
+    "summary": null,
+    "education": [],
+    "experience": [],
+    "skills": [],
+    "certifications": [],
+    "languages": [],
+    "extraction_notes": [
+      "No recognizable section headers found; extraction may be incomplete."
+    ]
+  },
+  "derived": {
+    "total_months": 0,
+    "total_years": 0.0,
+    "internship_months": 0,
+    "entries_total": 0,
+    "entries_missing_dates": 0,
+    "entries_invalid_range": 0,
+    "gaps_over_6_months": 0,
+    "as_of": "2026-11"
+  },
+  "recommendation": {
+    "job_title": "Junior AI Engineer (MOCK job description)",
+    "fit_score": 0.0,
+    "band": "low_match",
+    "suggested_next_step": "manual_review_required",
+    "confidence": "low",
+    "requires_human_review": true,
+    "strengths": [],
+    "gaps": [
+      "Belum terlihat: python, sql, machine learning, git.",
+      "Pengalaman 0 bulan < target 12 bulan."
+    ],
+    "caveats": [
+      {
+        "code": "HUMAN_DECISION_REQUIRED",
+        "severity": "info",
+        "message": "Ini saran awal berbasis rubric heuristik yang belum divalidasi terhadap hasil rekrutmen nyata. Keputusan akhir harus dibuat recruiter setelah membaca CV asli."
+      },
+      {
+        "code": "EXTRACTION_LOW_COVERAGE",
+        "severity": "high",
+        "message": "CV cukup panjang tetapi hampir tidak ada data yang berhasil diekstrak; skor tidak dapat dipercaya (format CV mungkin tidak umum). Baca CV secara manual."
+      },
+      {
+        "code": "MUST_HAVE_MISSING",
+        "severity": "warn",
+        "message": "Requirement utama tidak ditemukan di CV: python, sql, machine learning, git. Bisa jadi memang tidak ada, atau tidak ditulis."
+      }
+    ],
+    "score_breakdown": {
+      "must_have": {
+        "weight": 0.55,
+        "coverage": 0.0,
+        "strong": [],
+        "listed_only": [],
+        "missing": [
+          "python",
+          "sql",
+          "machine learning",
+          "git"
+        ]
+      },
+      "nice_to_have": {
+        "weight": 0.2,
+        "coverage": 0.0,
+        "strong": [],
+        "listed_only": [],
+        "missing": [
+          "llm",
+          "prompt engineering",
+          "fastapi",
+          "docker",
+          "nlp",
+          "pandas"
+        ]
+      },
+      "experience": {
+        "weight": 0.15,
+        "coverage": 0.0,
+        "months": 0
+      },
+      "education": {
+        "weight": 0.1,
+        "coverage": 0.0
+      }
+    },
+    "disclaimer": "Bukan keputusan rekrutmen. Tidak ada kandidat yang ditolak otomatis oleh sistem ini."
+  },
+  "contact_local_only": {
+    "emails": [],
+    "phones": []
+  },
+  "pipeline_meta": {
+    "llm": "mock-rule-based",
+    "extraction_ok": true,
+    "attempts": 1,
+    "validation_errors": [],
+    "ungrounded_items_dropped": [],
+    "items_before_grounding": 0,
+    "sensitive_lines_removed": 0,
+    "injection_flags": [],
+    "chars_sent_to_llm": 454
+  }
+}
